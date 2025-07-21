@@ -41,3 +41,9 @@ git pull origin frontend
 git push origin main
 git push origin frontend
 
+git stash 
+    add a not important line in vs . dont add and commit init
+    add a important line in github and commit init
+    pull the changes in vscode -> it will be aborted since there is a conflict
+    you can stash (delete) the not important line using git stash -> deleted that line in vscode 
+    then pull main -> pulls important line
