@@ -35,3 +35,9 @@ to create a branch (like frontend , backend)
     git checkout -b "branch-name" -> creates and moves to the created branch
     git checkout main -> moves to main
     
+
+git pull origin main
+git pull origin frontend
+git push origin main
+git push origin frontend
+
