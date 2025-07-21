@@ -21,3 +21,4 @@ git staging :
     push to github
     6. git push -u origin main
     
+added this line in github and commited
