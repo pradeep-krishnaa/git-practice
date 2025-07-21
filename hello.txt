@@ -1,1 +1,23 @@
 Hii , This is Pradeep Krishnaa
+git config --global user.name "pradeep-krishnaa" (do only once per device)
+1. git init (inits local repo)
+git clone <our-repo>.git
+
+git staging :
+    -> adding to our local git
+    2. git add hello.txt   -> adds hello.txt to local repo (staging changes)
+    3. git commit -m "message"
+        if you fix an error , message is "fix:message"
+        if you add a feature "feat:message"
+        if you add code "refactor:message"
+        if you add a documentation "docs:message"
+        important , emergency -> add exclamation "!fix:message" , "!feat:message"
+        not that important -> "chore:message"
+
+        eg : git commit -m "feat:initial push hello.txt" -> commits hello.txt to local repo
+    4. git remote add origin https://github.com/pradeep-krishnaa/git-practice.git
+    change master to main
+    5. git branch -M main
+    push to github
+    6. git push -u origin main
+    
