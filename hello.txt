@@ -29,3 +29,9 @@ added this line in github and commited
 other commands
     git status -> eg : to see untracked files "U"
     git diff -> to see changes
+
+to create a branch (like frontend , backend)
+    git branch -> to see current branch
+    git checkout -b "branch-name" -> creates and moves to the created branch
+    git checkout main -> moves to main
+    
