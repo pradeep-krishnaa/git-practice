@@ -22,3 +22,10 @@ git staging :
     6. git push -u origin main
     
 added this line in github and commited
+
+7. git pull
+
+
+other commands
+    git status -> eg : to see untracked files "U"
+    git diff -> to see changes
